@@ -9,9 +9,9 @@ function assembleCharacters(){
         being.textContent = value.name
     
         let container = document.getElementById('cont')
-        container.appendChild(lion)
+        container.appendChild(being)
         //Add an event listener and give instructions
-        lion.addEventListener('click', ()=> {
+        being.addEventListener('click', ()=> {
             //assign an element name element
             let lion =document.createElement('img')
             lion.src=value.image
